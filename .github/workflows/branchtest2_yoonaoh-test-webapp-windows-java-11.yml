@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'yoonaoh-test-webapp-windows-java-11'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF2F9CF6846F48E4BD8F41F32F57AC98 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BDA1546563B24CA587A53B93902EB1CB }}
           package: '*.jar'
